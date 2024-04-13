@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "roll": "105",
+      "name": "sanjay",
+      "mark": "88",
+      "id": 1
+    },
+    {
+      "roll": "105",
+      "name": "gaurav",
+      "mark": "105",
+      "id": 2
+    },
+    {
+      "roll": "55",
+      "name": "roshan",
+      "mark": "55",
+      "id": 3
+    },
+    {
+      "roll": "101",
+      "name": "ravi",
+      "mark": "205",
+      "id": 4
+    },
+    {
+      "roll": "104",
+      "name": "saurabh",
+      "mark": "55",
+      "id": 5
+    },
+    {
+      "roll": "102",
+      "name": "sanjay",
+      "mark": "65",
+      "id": 6
+    }
+  ]
+}
