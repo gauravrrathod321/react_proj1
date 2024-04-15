@@ -8,7 +8,7 @@ import Contact from "./Components/Pages/Contact";
 import Add from './Components/Pages/User/Add';
 import Show from './Components/Pages/User/Show';
 import Update from './Components/Pages/User/Update';
-
+import Delete from './Components/Pages/User/Delete';
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
       <Route path="/user/add" element={<Add/>}/>
       <Route path="/user/show" element={<Show/>}></Route>
       <Route path="/user/update/:userId" element={<Update/>}/>
+      <Route path="/user/delete/:userId" element={<Delete/>}/>
     </Routes>
     </BrowserRouter>
     </>

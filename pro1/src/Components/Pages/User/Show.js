@@ -34,7 +34,7 @@ function Show() {
                   <td>{obj.mark}</td>
                   <td>
                     <NavLink to={`/user/update/${obj.id}`}><button className='btn btn-outline-warning btn-sm'>update</button></NavLink>
-                    <button className='btn btn-outline-danger btn-sm'>delete</button>
+                    <NavLink to={`/user/delete/${obj.id}`}><button className='btn btn-outline-danger btn-sm'>delete</button></NavLink>
                   </td>
                 </tr>
               )
@@ -45,5 +45,4 @@ function Show() {
     </div>
   )
 }
-
-export default Show
+export default Show;
